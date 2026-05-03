@@ -1,11 +1,40 @@
-# NAME: Adult
-# AUTHOR: custom
-# REPO: local
+# NAME: AdultBlock
+# AUTHOR: Custom
 # UPDATED: 2026-05-03
-# DOMAIN-SUFFIX: 70
-# DOMAIN-KEYWORD: 28
-# TOTAL: 98
+# DESCRIPTION: Block adult / porn / heiliao mirror domains for Surge
 
+# ================================
+# 黑料 / HL / 吃瓜类
+# ================================
+DOMAIN-SUFFIX,heiliao.com
+DOMAIN-SUFFIX,hl365.com
+DOMAIN-SUFFIX,ixhmyiid.cc
+DOMAIN-SUFFIX,izxgftqp.com
+DOMAIN-SUFFIX,zcktufsi.cc
+DOMAIN-SUFFIX,zitzhfzc.com
+DOMAIN-SUFFIX,yeszceet.cc
+
+DOMAIN,9way.ixhmyiid.cc
+DOMAIN,0i6xo.izxgftqp.com
+DOMAIN,f48.zcktufsi.cc
+DOMAIN,0fe.zitzhfzc.com
+DOMAIN,beside.yeszceet.cc
+DOMAIN,airport.yeszceet.cc
+DOMAIN,brother.yeszceet.cc
+
+# CloudFront 只能屏蔽具体域名，不要屏蔽整个 cloudfront.net
+DOMAIN,d18ts0f5wn9dh4.cloudfront.net
+
+DOMAIN-KEYWORD,heiliao
+DOMAIN-KEYWORD,heiliaowang
+DOMAIN-KEYWORD,heiliaobdy
+DOMAIN-KEYWORD,hl365
+DOMAIN-KEYWORD,blackliao
+DOMAIN-KEYWORD,hlw
+
+# ================================
+# 常见成人视频站
+# ================================
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,xvideos.com
@@ -36,6 +65,9 @@ DOMAIN-SUFFIX,fuq.com
 DOMAIN-SUFFIX,efukt.com
 DOMAIN-SUFFIX,gotporn.com
 
+# ================================
+# 成人直播 / 付费内容
+# ================================
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,fansly.com
 DOMAIN-SUFFIX,chaturbate.com
@@ -46,6 +78,9 @@ DOMAIN-SUFFIX,livejasmin.com
 DOMAIN-SUFFIX,myfreecams.com
 DOMAIN-SUFFIX,camwhores.tv
 
+# ================================
+# 成人漫画 / 二次元 / NSFW
+# ================================
 DOMAIN-SUFFIX,rule34.xxx
 DOMAIN-SUFFIX,rule34video.com
 DOMAIN-SUFFIX,rule34.us
@@ -59,7 +94,15 @@ DOMAIN-SUFFIX,sankakucomplex.com
 DOMAIN-SUFFIX,danbooru.donmai.us
 DOMAIN-SUFFIX,konachan.com
 DOMAIN-SUFFIX,yande.re
+DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,iwara.tv
+DOMAIN-SUFFIX,kemono.party
+DOMAIN-SUFFIX,coomer.party
 
+# ================================
+# JAV / AV 类
+# ================================
 DOMAIN-SUFFIX,javbus.com
 DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,jable.tv
@@ -78,12 +121,9 @@ DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,heyzo.com
 DOMAIN-SUFFIX,pacopacomama.com
 
-DOMAIN-SUFFIX,hanime.tv
-DOMAIN-SUFFIX,hanime1.me
-DOMAIN-SUFFIX,iwara.tv
-DOMAIN-SUFFIX,kemono.party
-DOMAIN-SUFFIX,coomer.party
-
+# ================================
+# 关键词兜底，屏蔽更广，但可能误伤
+# ================================
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,porno
 DOMAIN-KEYWORD,xxx
@@ -112,3 +152,4 @@ DOMAIN-KEYWORD,erotic
 DOMAIN-KEYWORD,nude
 DOMAIN-KEYWORD,nsfw
 DOMAIN-KEYWORD,hanime
+DOMAIN-KEYWORD,18comic
