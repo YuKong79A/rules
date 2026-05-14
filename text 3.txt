@@ -1,0 +1,1 @@
+https://api-huacloud.dev/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_Trojan.yaml&url=https%3A%2F%2Fapi.xmancdn.com%2Fosubscribe.php%3Ftoken2%3Dqzmj4zny-89b6dfc19ctudi0fl7
